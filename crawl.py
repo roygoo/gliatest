@@ -20,7 +20,7 @@ def parse_post(post_url):
     print 'board: %s' % meta_data[1].text
     print 'title: %s' % meta_data[2].text
     print 'time: %s' % meta_data[3].text
-    #print 'content:\n%s' % content[0].text
+    print 'content:\n%s' % content[0].text
 
 
 def parse_board(post_url):
