@@ -10,7 +10,7 @@ def integrate(fun, start, end):
     while intercept < end:
         intercept += step
         ''' your work here '''
-        area = fun(intercept)
+        area += fun(intercept)
     return area
 
 
